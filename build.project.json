@@ -3,9 +3,39 @@
   "tree": {
     "$className": "DataModel",
     "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.27450981736183167,
+          0.27450981736183167,
+          0.27450981736183167
+        ],
+        "Brightness": 3.0,
+        "EnvironmentDiffuseScale": 1.0,
+        "EnvironmentSpecularScale": 1.0,
+        "FogColor": [
+          0.7529412508010864,
+          0.7529412508010864,
+          0.7529412508010864
+        ],
+        "GeographicLatitude": 0.0,
+        "GlobalShadows": true,
+        "OutdoorAmbient": [
+          0.27450981736183167,
+          0.27450981736183167,
+          0.27450981736183167
+        ],
+        "Outlines": false,
+        "PrioritizeLightingQuality": true,
+        "ShadowSoftness": 0.20000000298023224,
+        "Technology": "ShadowMap",
+        "TimeOfDay": "14:30:00"
+      },
       "$path": "Build/Lighting"
     },
     "MaterialService": {
+      "$properties": {
+        "Use2022MaterialsXml": true
+      },
       "$path": "Build/MaterialService"
     },
     "ReplicatedFirst": {
@@ -33,24 +63,73 @@
       "$path": "Build/ServerStorage"
     },
     "SoundService": {
+      "$properties": {
+        "DefaultListenerLocation": "Camera",
+        "RespectFilteringEnabled": true
+      },
       "$path": "Build/SoundService"
     },
     "StarterGui": {
+      "$properties": {
+        "ScreenOrientation": "Sensor"
+      },
       "$path": "Build/StarterGui"
     },
     "StarterPack": {
       "$path": "Build/StarterPack"
     },
     "StarterPlayer": {
+      "$properties": {
+        "AvatarJointUpgrade": "Enabled",
+        "CameraMaxZoomDistance": 128.0,
+        "CharacterBreakJointsOnDeath": false,
+        "CharacterUseJumpPower": false
+      },
       "$path": "Build/StarterPlayer"
     },
     "Teams": {
       "$path": "Build/Teams"
     },
     "TextChatService": {
+      "$properties": {
+        "ChatVersion": "TextChatService",
+        "IsLegacyChatDisabled": true
+      },
       "$path": "Build/TextChatService"
     },
     "Workspace": {
+      "$properties": {
+        "SignalBehavior": "Deferred",
+        "StreamOutBehavior": "Opportunistic",
+        "StreamingEnabled": true,
+        "StreamingIntegrityMode": "PauseOutsideLoadedArea",
+        "WorldPivotData": {
+          "OptionalCFrame": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        }
+      },
       "$path": "Build/Workspace"
     }
   },
