@@ -1,0 +1,68 @@
+{
+  "name": "Spin Rhythm - Build",
+  "tree": {
+    "$className": "DataModel",
+    "Lighting": {
+      "$path": "build/Lighting"
+    },
+    "MaterialService": {
+      "$path": "build/MaterialService"
+    },
+    "ReplicatedFirst": {
+      "Client": {
+        "$path": "src/Client"
+      },
+      "$path": "src/ReplicatedFirst"
+    },
+    "ReplicatedStorage": {
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Shared": {
+        "$path": "src/Shared"
+      },
+      "$path": "build/ReplicatedStorage"
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/Server"
+      },
+      "$path": "build/ServerScriptService"
+    },
+    "ServerStorage": {
+      "$path": "build/ServerStorage"
+    },
+    "SoundService": {
+      "$path": "build/SoundService"
+    },
+    "StarterGui": {
+      "$path": "build/StarterGui"
+    },
+    "StarterPack": {
+      "$path": "build/StarterPack"
+    },
+    "StarterPlayer": {
+      "$path": "build/StarterPlayer"
+    },
+    "Teams": {
+      "$path": "build/Teams"
+    },
+    "TextChatService": {
+      "$path": "build/TextChatService"
+    },
+    "Workspace": {
+      "$path": "build/Workspace"
+    }
+  },
+  "syncbackRules": {
+    "ignoreTrees": [
+      "ReplicatedFirst/Client",
+      "ReplicatedStorage/Packages",
+      "ReplicatedStorage/Shared",
+      "ServerScriptService/Server"
+    ],
+    "syncCurrentCamera": false,
+    "syncUnscriptable": true,
+    "ignoreReferents": false
+  }
+}
