@@ -3,55 +3,55 @@
   "tree": {
     "$className": "DataModel",
     "Lighting": {
-      "$path": "build/Lighting"
+      "$path": "Build/Lighting"
     },
     "MaterialService": {
-      "$path": "build/MaterialService"
+      "$path": "Build/MaterialService"
     },
     "ReplicatedFirst": {
       "Client": {
-        "$path": "src/Client"
+        "$path": "Source/Client"
       },
-      "$path": "src/ReplicatedFirst"
+      "$path": "Build/ReplicatedFirst"
     },
     "ReplicatedStorage": {
       "Packages": {
         "$path": "Packages"
       },
       "Shared": {
-        "$path": "src/Shared"
+        "$path": "Source/Shared"
       },
-      "$path": "build/ReplicatedStorage"
+      "$path": "Build/ReplicatedStorage"
     },
     "ServerScriptService": {
       "Server": {
-        "$path": "src/Server"
+        "$path": "Source/Server"
       },
-      "$path": "build/ServerScriptService"
+      "$path": "Build/ServerScriptService"
     },
     "ServerStorage": {
-      "$path": "build/ServerStorage"
+      "$path": "Build/ServerStorage"
     },
     "SoundService": {
-      "$path": "build/SoundService"
+      "$path": "Build/SoundService"
     },
     "StarterGui": {
-      "$path": "build/StarterGui"
+      "$path": "Build/StarterGui"
     },
     "StarterPack": {
-      "$path": "build/StarterPack"
+      "$path": "Build/StarterPack"
     },
     "StarterPlayer": {
-      "$path": "build/StarterPlayer"
+      "$path": "Build/StarterPlayer"
     },
     "Teams": {
-      "$path": "build/Teams"
+      "$path": "Build/Teams"
     },
     "TextChatService": {
-      "$path": "build/TextChatService"
+      "$path": "Build/TextChatService"
     },
     "Workspace": {
-      "$path": "build/Workspace"
+      "$path": "Build/Workspace"
     }
   },
   "syncbackRules": {
