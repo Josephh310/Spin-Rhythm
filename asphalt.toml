@@ -1,0 +1,14 @@
+[creator]
+type = "user"
+id = 2901872175
+
+[codegen]
+typescript = false
+style = "nested"
+strip_extensions = true
+content = false
+
+[inputs.Assets]
+path = "assets/**/*"
+output_path = "source/client/modules"
+bleed = true
